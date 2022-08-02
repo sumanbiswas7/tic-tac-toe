@@ -8,15 +8,15 @@ const welcome = `
 `;
 
 function board(data) {
-  const a = data["a"] || " ";
-  const b = data["b"] || " ";
-  const c = data["c"] || " ";
-  const d = data["d"] || " ";
-  const e = data["e"] || " ";
-  const f = data["f"] || " ";
-  const g = data["g"] || " ";
-  const h = data["h"] || " ";
-  const i = data["i"] || " ";
+  const a = data["1"] || " ";
+  const b = data["2"] || " ";
+  const c = data["3"] || " ";
+  const d = data["4"] || " ";
+  const e = data["5"] || " ";
+  const f = data["6"] || " ";
+  const g = data["7"] || " ";
+  const h = data["8"] || " ";
+  const i = data["9"] || " ";
 
   const boar = `
     ${a} '  ${b}  ' ${c}     
