@@ -5,7 +5,7 @@ A super fancy CLI game.
 ## Take the Quiz
 
 ```
-npx tic-tac-toe
+npx tictactoe-node
 ```
 
 ## Packages Used

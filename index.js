@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import chalk from "chalk";
 import chalkAnimation from "chalk-animation";
 import inquirer from "inquirer";
@@ -5,6 +7,7 @@ import { board } from "./utils/board.js";
 let playerName;
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
+console.clear();
 const rainbow = chalkAnimation.rainbow("Welcome to Tic-Tac-Toe"); // Animation starts
 await intro();
 await main();

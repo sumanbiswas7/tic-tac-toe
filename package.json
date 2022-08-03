@@ -1,6 +1,6 @@
 {
-  "name": "tictactoe-2022",
-  "version": "1.0.0",
+  "name": "tictactoe-node",
+  "version": "0.0.5",
   "description": "cli tic-tac-toe game :)",
   "main": "index.js",
   "bin": "./index.js",
