@@ -1,17 +1,23 @@
 {
-  "name": "cli-game",
+  "name": "tictactoe-2022",
   "version": "1.0.0",
-  "description": "",
+  "description": "cli tic-tac-toe game :)",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "suman biswas",
+  "bin": "./index.js",
+  "type": "module",
+  "author": "Suman Biswas",
   "license": "ISC",
+  "homepage": "https://sumanbiswas.vercel.app/",
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sumanbiswas7/tic-tac-toe"
+  },
   "dependencies": {
     "chalk": "^5.0.1",
     "chalk-animation": "^2.0.2",
     "inquirer": "^9.0.2"
-  },
-  "type": "module"
+  }
 }
